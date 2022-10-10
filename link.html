@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>link to google</title>
+		<style>
+			input, select, textarea {
+				display: block;
+			}
+
+			select {
+				color: red;
+			}
+
+			input {
+				color: green;
+			}
+			
+			textarea {
+				color: blue;
+			}
+
+			input[type="password"] {
+				color: yellow;
+			}
+
+			[for="state"] {
+				color: violet;
+			}
+
+		</style>
+	</head>
+	<body>
+		<p>
+			<a href="https://www.google.com/">Google</a>
+			 | <a href="my_time_table.html">My Timetable</a>
+			<a href="https://go.microsoft.com/">fwlink/?linkid=2168605</a>
+		</p> 
+		<form>
+  			<label for="fname">First name
+ 				<input type="text" id="fname" placeholder="Enter your first name" name="fname">
+			</label>
+			<label for="mysecret">One thing you should not know about me
+				<input type="password" id="mysecret" name="mysecret">
+			</label>
+  			<label for="lname">Last name
+  				<input type="text" id="lname" placeholder="Enter your last name" name="lname">s
+			</label><br>
+			<label for="gender">Gender
+				<input type="radio" name="gender">Male</input>
+				<input type="radio" name="gender">Female</input>
+				<input type="radio" name="gender">i dont want to say</input>
+			</label></br>
+			<label for="hubbies">Hubbies<br>
+				<input type="checkbox" name="hubbies">Swimming</input>
+				<input type="checkbox" name="hubbies">Reading</input>
+				<input type="checkbox" name="hubbies">Playing football</input>
+				<input type="checkbox" name="hubbies">jumping</input>
+				<input type="checkbox" name="hubbies">throwing javelin</input>
+				<input type="checkbox" name="hubbies">basketball</input>
+			</label></br>
+			<label for="state">State of Origin 
+				<select name="state">
+					<option value="">-- Select a state --</option>
+					<option value="Oyo">Oyo</option>
+					<option value="Lagos">Lagos</option>
+					<option value="anambra">anambra</option>
+					<option value="bauchi">bauchi</option>
+				</select>
+			</label><br>
+			<label for="review">Review of alhameen
+				<textarea id="review" name="review" rows="4" cols="50"></textarea>
+			</label>
+			<label for="date">date of birth
+				<input type="date" name="date"></input>
+			</label>
+			<label>
+				<input type="submit">
+			</label>	
+		</form>
+		<video width="500" controls>
+			<source src="../../Videos/converted_tom_jerry.mp4" type="video/mp4">
+			Your browser is not supported.
+		</video>
+	</body>
+</html>
